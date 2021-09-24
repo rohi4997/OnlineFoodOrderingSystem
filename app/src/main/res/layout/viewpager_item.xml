@@ -2,8 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginHorizontal="16dp">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -15,44 +14,59 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            app:cardCornerRadius="16dp"
-            android:elevation="8dp">
+            android:elevation="8dp"
+            app:cardCornerRadius="16dp">
 
 
             <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="514dp">
+
 
                 <ImageView
+                    android:id="@+id/ivimage"
                     android:layout_width="wrap_content"
                     android:layout_height="250dp"
-                    android:id="@+id/ivimage"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="0dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/a"/>
-
+                    android:src="@drawable/b1" />
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:id="@+id/tvHeading"
-                    android:layout_below="@id/ivimage"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginTop="16dp"
-                    android:text="Baked"
-                    android:textColor="@color/black"
-                    android:textSize="26dp"
-                    android:textStyle="bold"/>
-
-                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@id/ivimage"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="34dp"
+                    android:layout_marginEnd="246dp"
+                    android:gravity="center|fill_horizontal"
+                    android:text="@string/Grilled"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
                     android:id="@+id/tvDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_below="@id/tvHeading"
-                    android:layout_margin="8dp"
-                    android:text="@string/a_desc"/>
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="67dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/a_desc"
+                    android:textSize="18sp" />
 
             </RelativeLayout>
 
