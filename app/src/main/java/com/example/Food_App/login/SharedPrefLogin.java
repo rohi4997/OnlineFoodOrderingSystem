@@ -1,4 +1,4 @@
-package com.example.Food_App;
+package com.example.Food_App.login;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,6 +14,9 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.Food_App.Dashboard;
+import com.example.Food_App.R;
 
 public class SharedPrefLogin extends AppCompatActivity {
     EditText Username_input, Password_input;

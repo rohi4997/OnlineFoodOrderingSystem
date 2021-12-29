@@ -1,4 +1,4 @@
-package com.example.Food_App;
+package com.example.Food_App.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
@@ -7,6 +7,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.Food_App.R;
+import com.example.Food_App.VPAdapter;
+import com.example.Food_App.ViewPagerItem;
 
 import java.util.ArrayList;
 
@@ -59,7 +63,7 @@ public class EntryPage extends AppCompatActivity {
         getStarted.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(EntryPage.this,PhoneNumberActivity.class);
+                Intent intent = new Intent(EntryPage.this, PhoneNumberActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
 

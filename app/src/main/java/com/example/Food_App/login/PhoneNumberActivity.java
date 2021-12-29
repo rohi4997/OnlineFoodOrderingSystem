@@ -1,4 +1,4 @@
-package com.example.Food_App;
+package com.example.Food_App.login;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.Food_App.Dashboard;
 import com.google.firebase.auth.FirebaseAuth;
 import com.example.Food_App.databinding.ActivityPhoneNumberBinding;
 

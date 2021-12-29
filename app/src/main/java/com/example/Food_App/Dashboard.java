@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.Food_App.adapter.AsiaFoodAdapter;
 import com.example.Food_App.adapter.PopularFoodAdapter;
+import com.example.Food_App.profile.Profile;
 import com.example.Food_App.model.AsiaFood;
 import com.example.Food_App.model.PopularFood;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -67,7 +68,7 @@ public class Dashboard extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.profile:
-                        startActivity(new Intent(getApplicationContext(),Profile.class));
+                        startActivity(new Intent(getApplicationContext(), Profile.class));
                         overridePendingTransition(0,0);
                         return true;
                 }

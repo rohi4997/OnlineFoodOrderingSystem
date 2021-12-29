@@ -1,4 +1,4 @@
-package com.example.Food_App;
+package com.example.Food_App.login;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -16,6 +16,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.Food_App.Dashboard;
+import com.example.Food_App.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseException;

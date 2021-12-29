@@ -9,18 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.ViewPager2_">
-        <activity android:name=".SharedPrefLogin"></activity>
+        <activity android:name=".login.SharedPrefLogin"></activity>
         <activity android:name=".CartView" />
-        <activity android:name=".EntryPage" />
-        <activity android:name=".LoginPage" />
-        <activity android:name=".Otp_Page" />
+        <activity android:name=".login.EntryPage" />
+        <activity android:name=".login.LoginPage" />
+        <activity android:name=".login.Otp_Page" />
         <activity android:name=".Dashboard" />
         <activity android:name=".DetailsActivity2" />
         <activity android:name=".Help" />
-        <activity android:name=".PhoneNumberActivity" />
-        <activity android:name=".OTPActivity" />
-        <activity android:name=".SetupProfileActivity" />
-        <activity android:name=".Profile" />
+        <activity android:name=".login.PhoneNumberActivity" />
+        <activity android:name=".login.OTPActivity" />
+        <activity android:name=".profile.SetupProfileActivity" />
+        <activity android:name=".profile.Profile" />
         <activity android:name=".DetailsActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

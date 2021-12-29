@@ -8,7 +8,7 @@
     android:background="@drawable/g"
     android:theme="@style/AppTheme2"
     android:visibility="visible"
-    tools:context=".LoginPage">
+    tools:context=".login.LoginPage">
 
 
     <TextView

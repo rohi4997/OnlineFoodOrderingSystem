@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/b"
+    android:background="#505357"
     tools:context=".CartView"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Cart"
+        android:text="Your Cart Items"
         android:textSize="30dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:fontFamily="@font/semibold"
         android:layout_marginTop="15dp"
         android:gravity="center"/>
@@ -21,7 +21,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/cart_recycler"
         android:layout_width="match_parent"
-        android:layout_height="256dp"
+        android:layout_height="550dp"
         android:layout_marginTop="16dp"
 
         />

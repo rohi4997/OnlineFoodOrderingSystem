@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.Food_App.login.EntryPage;
+
 public class MainActivity extends AppCompatActivity {
 
     private static final int SPLASH_SCREEN = 3000; // 3 secs.
